@@ -98,6 +98,7 @@ nav a {
 }
 .banner img {
   width: 510px;
+  margin-bottom: -6px;
 }
 .banner-geeting {
   color: #474747;
