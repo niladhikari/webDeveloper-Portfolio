@@ -19,12 +19,13 @@ body {
     cursor: pointer;
     font-weight: 700;
   }
+  span {
+    color: #fd6e0a;
+  }
 
-/*       */
+/*   nav related style    */
 
-span {
-  color: #fd6e0a;
-}
+
 .mari {
   color: #181818;
   text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -33,8 +34,9 @@ span {
 
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  margin: 0 200px;
 }
 nav > .menu-item {
   display: flex;
@@ -54,5 +56,20 @@ nav a {
     color:  #474747;
     font-size: 20px;
     font-weight: 400;
-  }
+}
+
+/*   header related style    */
+
+.header-container{
+    background-color: #FFF8F3;    
+}
+.banner{
+     padding: 30px 30px 30px 150px;
+     display: flex;
+     align-items: center;
+}
+
+.banner img {
+    width: 500px;
+}
   
