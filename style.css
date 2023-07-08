@@ -24,6 +24,19 @@ span {
   color: #fd6e0a;
 }
 
+.section-tital {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.section-discription {
+  color: #757575;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 18px;
+}
 /*   nav related style    */
 
 .mari {
@@ -101,28 +114,30 @@ nav a {
 }
 
 /* Main section style */
+main {
+  max-width: 1140px;
+  margin: 0px auto;
+}
+/* about section style */
+.about {
+  padding: 130px 256px;
+  border-radius: 10px;
+  background: #fff8f3;
+  margin: 130px 0;
+}
 
-.about-contant {
-  background-color: #fff8f3;
-  width: 1140px;
-  height: 550px;
-  margin: 130px 230px;
-  justify-content: center;
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
 }
-.about-tital{
- color:#181818;
- padding-top: 130px;
-text-align: center;
-font-size: 35px;
-font-weight: 700;
+.info-tital {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
 }
-.about-discription{
-color: #757575;
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-padding-top: 30px;
-padding-bottom: 30px;
-padding: 0px 156px;
+.info-discription{
+    text-align: center;
+    font-weight: bold;
 }
