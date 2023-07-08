@@ -41,6 +41,11 @@ span {
   font-size: 18px;
 }
 
+.icon{
+  width: 34px;
+height: 34px;
+color: #FFFFFF;
+}
 /*   nav related style    */
 
 .mari {
