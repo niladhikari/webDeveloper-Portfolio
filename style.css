@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+.menu-item{
+    display: flex;
+    list-style: none;
+    margin: 10px;
+}
+.menu-container{
+    display: flex;
+    
+}
+.item{
+    margin-right: 17px;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
