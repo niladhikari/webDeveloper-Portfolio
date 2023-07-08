@@ -10,21 +10,21 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .btn-primary {
-   padding: 15px 35px;
-    border-radius: 5px;
-    background-color: #fd6e0a;
-    color:  #fff;
-    font-size: 20px;
-    border: none;
-    cursor: pointer;
-    font-weight: 700;
-  }
-  span {
-    color: #fd6e0a;
-  }
+  padding: 15px 35px;
+  border-radius: 5px;
+  background-color: #fd6e0a;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+span {
+  color: #fd6e0a;
+}
 
 /*   nav related style    */
-
 
 .mari {
   color: #181818;
@@ -36,40 +36,93 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 200px;
+  margin: 0px 200px;
 }
 nav > .menu-item {
   display: flex;
   justify-content: center;
   align-items: center;
   list-style: none;
-} 
+}
 
 nav .item > a {
   margin-right: 50px;
-  padding: 10px;
   font-size: 18px;
   cursor: pointer;
   text-decoration: none;
 }
 nav a {
-    color:  #474747;
-    font-size: 20px;
-    font-weight: 400;
+  color: #474747;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 /*   header related style    */
 
-.header-container{
-    background-color: #FFF8F3;    
+.header-container {
+  background-color: #fff8f3;
 }
-.banner{
-     padding: 30px 30px 30px 150px;
-     display: flex;
-     align-items: center;
+.banner {
+  padding: 30px 30px 0px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url("images/header_bg.png");
+  /* background-image: url(images/developer.png); */
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.text-banner {
+  max-width: 520px;
+}
+.banner img {
+  width: 510px;
+}
+.banner-geeting {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 0px;
 }
 
-.banner img {
-    width: 500px;
+.banner-tital {
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
 }
-  
+.banner-discription {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/* Main section style */
+
+.about-contant {
+  background-color: #fff8f3;
+  width: 1140px;
+  height: 550px;
+  margin: 130px 230px;
+  justify-content: center;
+}
+.about-tital{
+ color:#181818;
+ padding-top: 130px;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+}
+.about-discription{
+color: #757575;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+padding-top: 30px;
+padding-bottom: 30px;
+padding: 0px 156px;
+}
