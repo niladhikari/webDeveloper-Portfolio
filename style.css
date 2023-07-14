@@ -1,6 +1,6 @@
 /* *{
     margin: 0;
-    padding: 0;
+   padding: 5px;
 } */
 
 /* primary section */
@@ -41,10 +41,10 @@ span {
   font-size: 18px;
 }
 
-.icon{
+.icon {
   width: 34px;
-height: 34px;
-color: #FFFFFF;
+  height: 34px;
+  color: #ffffff;
 }
 /*   nav related style    */
 
@@ -83,9 +83,9 @@ nav a {
 
 .header-container {
   background-color: #fff8f3;
-  background-image: url("images/header_bg.png"), url("images/developer.png");;
+  background-image: url("images/header_bg.png"), url("images/developer.png");
   background-repeat: no-repeat;
-  background-position: bottom right , top left
+  background-position: bottom right, top left;
 }
 .banner {
   padding: 30px 30px 0px 150px;
@@ -126,11 +126,11 @@ nav a {
 main {
   max-width: 1140px;
   margin: 0px auto;
-  background: #FFF;
+  background: #fff;
 }
 
-main section{
-    margin-top: 130px;
+main section {
+  margin-top: 130px;
 }
 /* about section style */
 .about {
@@ -155,6 +155,7 @@ main section{
   text-align: center;
   font-weight: bold;
 }
+
 /*  what i do section */
 .what-i-do-dis {
   padding: 0px 160px;
@@ -173,90 +174,142 @@ main section{
   border: none;
   box-shadow: 10px 6px 50px 10px rgba(0, 0, 0, 0.06);
 }
-.skill-tital{
-color:#181818;
-font-size: 20px;
-font-weight: 700;
+.skill-tital {
+  color: #181818;
+  font-size: 20px;
+  font-weight: 700;
 }
-.skill-discription{
- color: #757575;
-font-size: 16px;
-font-weight: 400;
-
+.skill-discription {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 /* resume section style */
-.resume-container{
-display: flex;
-align-items: center;
-gap: 70px;
-
+.resume-container {
+  display: flex;
+  align-items: center;
+  gap: 70px;
 }
-.resume-tital{
-  color:  #474747;
-font-size: 30px;
-font-weight: 700;
+.resume-tital {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
 }
-.resume-item-tital{
+.resume-item-tital {
   color: #474747;
   font-size: 25px;
   font-weight: 700;
   margin-top: 20px;
 }
-hr{
-width: 558px;
-height: 1px;
-margin: 30px 0px;
-background: #D1D1D1;
+hr {
+  width: 558px;
+  height: 1px;
+  margin: 30px 0px;
+  background: #d1d1d1;
 }
-.resume-item-institute{
+.resume-item-institute {
   color: #757575;
   font-size: 20px;
   font-weight: 600;
   margin-top: 10px;
 }
-.resume-item-discription{
-  color:#757575;
+.resume-item-discription {
+  color: #757575;
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
   margin-top: 20px;
 }
 
-.btn-cv{
+.btn-cv {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 130px;
 }
 
- /* footer style */
- footer{
-   display: flex;
-   gap: 100px;
-  
-  background: #FFF8F3;
+/* footer style */
+footer {
+  display: flex;
+  gap: 100px;
+  background: #fff8f3;
   padding: 130px 230px;
-  
- }
- .footer-section{
-   width: 50%;
- }
-.form, input[type="text"] ,input[type="email"] ,textarea{
+}
+.footer-section {
+  width: 50%;
+}
+.form,
+input[type="text"],
+input[type="email"],
+textarea {
   display: block;
   margin-bottom: 25px;
   padding: 18px 35px;
-  color:  #757575;
-font-size: 16px;
-font-weight: 400;
-width: 100%;
-line-height: 28px;
-border-radius: 5px;
-background:#FFF;
-border: none;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  width: 100%;
+  line-height: 28px;
+  border-radius: 5px;
+  background: #fff;
+  border: none;
+  
 }
-.message{
+.message {
   text-align: left;
 }
-.icons a{
+.icons a {
   margin-right: 20px;
+}
+
+/* Responsive style */
+
+/* modile devices */
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  
+  /* skill section */
+  .skill-container , .resume-container , .about-info-container ,nav > .menu-item ,nav,.banner{
+    flex-direction: column;
+  }
+  .what-i-do-dis {
+    padding: 20px;
+  }
+  hr{
+    width:100%;
+  }
+
+  footer{
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  .footer-section ,.profile-pic{
+    width: 100%;
+  }
+  .message{
+    text-align: center;
+  }
+  .form,
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 80%;
+ 
+}
+
+.about ,.banner{
+  padding: 20px;
+  /* margin: 20px 0px; */
+}
+
+.header-container {
+  background-image: none;
+}
+.btn-primary ,.item {
+  margin-bottom: 20px;
+}
 }
